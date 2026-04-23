@@ -1,6 +1,6 @@
 from util import read_int
-from mode1 import mode1
-# from mode2 import mode2
+from mode1 import Mode1
+# from mode2 import Mode2
 
 if __name__ == "__main__":
   print("=== Mini NPU Simulator ===\n")
@@ -14,6 +14,6 @@ if __name__ == "__main__":
     print("1 또는 2를 입력해주세요.")
 
   if choice == 1:
-    mode1()
-#   else:
-#     mode2()
+    Mode1()
+  else:
+    # Mode2("data.json")

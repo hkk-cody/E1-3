@@ -1,6 +1,6 @@
 from util import print_section, measure_time
 
-class mode1:
+class Mode1:
   def __init__(self, row=3, col=3, epsilon=1e-9):
     self.row = row
     self.col = col
